@@ -40,6 +40,61 @@
     <p></p>
     水平间距30px<img src="images/image2.jpg" width="200px" height="100px" align="middle" border="4px"
              hspace="30px"/> 水平间距30px
+    <p></p>
+    <!--图像超链接-->
+    <a href="images/timg4.jpg"> <img src="images/timg3.jpg" width="100px" height="100px"/></a><br><br>
+    <a href="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=829658373,204743117&fm=80&w=179&h=119&img.JPEG">
+        <img src="images/image2.jpg"/></a><br><br>
+
+    <img src="images/image1.jpg" usemap="#picture1"/>
+    <map name="picture1">
+        <area shape="rect" coords="21,35,100,95" href="images/image2.jpg">
+    </map> <br><br>
+    <img src="images/image1.jpg" usemap="#picture2"/>
+    <map name="picture2">
+        <area shape="circle" coords="80,80,50" href="images/timg4.jpg">
+    </map><br><br>
+    <img name="image" src=""  width="200px" height="100px"  >
+
+    <table border="8px"  frame="vsides" width="600px" cellspacing="0" cellpadding="10px">
+        <tr align="center">
+            <td width="50px" height="30px" >第一行第一列</td>
+            <td>第一行第二列</td>
+        </tr>
+        <tr>
+            <td >第2行第一列</td>
+            <td >第2第二列</td>
+        </tr>
+    </table><br><br>
+
+    <table border="2px" cellspacing="0" frame="void">
+        <tr>
+            <td rowspan="2">合并第1、2行</td>
+            <td>第1行第2列</td>
+        </tr>
+        <tr>
+            <td>第2行第2列</td>
+        </tr>
+        <tr>
+            <td>第3行第1列</td>
+            <td>第3行第2列</td>
+        </tr>
+    </table><br><br>
+    <table border="2" frame="void" width="600px">   <!--表格开始 设置边框为2 -->
+        <tr align="center"> <!--表格行开始 设置居中-->
+            <td>列1</td><!--表格列-->
+            <td>列2</td>
+            <td>列3</td>
+        </tr>
+        <tr align="center">
+            <td colspan="2">第二行 第1、2列合并</td>
+            <td>第二行 第三列</td>
+        </tr>
+        <tr align="center">
+            <td colspan="3">第3行 第1、2、3合并</td>
+        </tr>
+    </table>
+
 
 
 </body>
