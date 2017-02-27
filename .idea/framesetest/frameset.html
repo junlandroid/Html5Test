@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>框架集frameset测试</title>
+</head>
+<frameset cols="100,*"  border = "10">
+    <frame src="framtest1.html" noresize="noresize">
+    <frameset rows="100,*">
+        <frame src="framtest2.html" name="name1">
+        <frame src="framtest3.html">
+    </frameset>
+</frameset>
+<noframes>
+    <body>此浏览器不支持框架</body>
+</noframes>
+
+
+</html>
